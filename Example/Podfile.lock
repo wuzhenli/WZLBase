@@ -19,7 +19,7 @@ PODS:
   - FBSnapshotTestCase/Core (2.1.4)
   - FBSnapshotTestCase/SwiftSupport (2.1.4):
     - FBSnapshotTestCase/Core
-  - WZLBase (0.3.1):
+  - WZLBase (0.3.3):
     - AFNetworking (~> 3.0)
 
 DEPENDENCIES:
@@ -33,7 +33,7 @@ EXTERNAL SOURCES:
 SPEC CHECKSUMS:
   AFNetworking: b6f891fdfaed196b46c7a83cf209e09697b94057
   FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
-  WZLBase: 60a2ec1d2a59d564d2ba5ef4f7463eab17100f8d
+  WZLBase: b0d42423b3d7b2033adc83001ed9f0569d23afb1
 
 PODFILE CHECKSUM: cab5ed9e352473b6d8d4dc5e86f902515b09f7b6
 
