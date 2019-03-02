@@ -1,8 +1,8 @@
 {
   "name": "WZLBase",
   "version": "0.1.0",
-  "summary": "A short description of WZLBase.",
-  "description": "TODO: Add long description of the pod here.",
+  "summary": "组件化-基础组件",
+  "description": "组件化-基础组件，分类",
   "homepage": "https://github.com/wuzhenli/WZLBase",
   "license": {
     "type": "MIT",
