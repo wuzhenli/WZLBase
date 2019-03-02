@@ -37,10 +37,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		01B7F26E03DBD51A83584265 /* WZLBase.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = WZLBase.podspec; path = ../WZLBase.podspec; sourceTree = "<group>"; };
+		01B7F26E03DBD51A83584265 /* WZLBase.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = WZLBase.podspec; path = ../WZLBase.podspec; sourceTree = "<group>"; };
 		2AF06398A685E7254EF5CD58 /* Pods-WZLBase_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WZLBase_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WZLBase_Example/Pods-WZLBase_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		2E4820A3696ED578ED17F73F /* Pods_WZLBase_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WZLBase_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		3B564C9C252EC18C14F5C577 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		3B564C9C252EC18C14F5C577 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* WZLBase_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WZLBase_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -64,7 +64,7 @@
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A55AE1F67AEF1D941365C710 /* Pods-WZLBase_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WZLBase_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-WZLBase_Tests/Pods-WZLBase_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		D5394A20AB03A0C4ABABDE12 /* Pods-WZLBase_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WZLBase_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WZLBase_Tests/Pods-WZLBase_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		E3F2F26F5D1AA74B3277CE37 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		E3F2F26F5D1AA74B3277CE37 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		F4342A3A4E7B7D887F394E72 /* Pods_WZLBase_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WZLBase_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FC6594D057206402E5725E3B /* Pods-WZLBase_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WZLBase_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-WZLBase_Example/Pods-WZLBase_Example.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -250,6 +250,9 @@
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = wuzhenli;
 				TargetAttributes = {
+					6003F589195388D20070C39A = {
+						DevelopmentTeam = 294Q8452TK;
+					};
 					6003F5AD195388D20070C39A = {
 						TestTargetID = 6003F589195388D20070C39A;
 					};
@@ -491,7 +494,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -524,7 +527,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
@@ -536,12 +539,14 @@
 			baseConfigurationReference = 2AF06398A685E7254EF5CD58 /* Pods-WZLBase_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 294Q8452TK;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "WZLBase/WZLBase-Prefix.pch";
 				INFOPLIST_FILE = "WZLBase/WZLBase-Info.plist";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -551,12 +556,14 @@
 			baseConfigurationReference = FC6594D057206402E5725E3B /* Pods-WZLBase_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 294Q8452TK;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "WZLBase/WZLBase-Prefix.pch";
 				INFOPLIST_FILE = "WZLBase/WZLBase-Info.plist";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
