@@ -8,6 +8,6 @@ target 'WZLBase_Example' do
   target 'WZLBase_Tests' do
     inherit! :search_paths
 
-    pod 'FBSnapshotTestCase'
+    # pod 'FBSnapshotTestCase'
   end
 end
